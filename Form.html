@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <div class="user-form">
+        <form action="">
+            <fieldset>
+                <legend>Your Details: </legend>
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name">
+                <br><br>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email">
+            </fieldset>
+            <br>
+            <br>
+            <fieldset>
+                <legend>Your Review: </legend>
+                <label for="hearus">How did you hear about us:</label>
+                <select name="hearus" id="hearus">
+                    <option value="google" selected>Google</option>
+                    <option value="facebook">Facebook</option>
+                    <option value="Instagram">Instagram</option>
+                    <option value="other">Others</option>
+                </select>
+                <br><br>
+                <label for="visit">Would you visit again:</label>
+                <br>
+                <input type="radio" name="visit" id="visit">
+                <label for="yes">Yes</label>
+                <input type="radio" name="visit" id="visit">
+                <label for="yes">No</label>
+                <input type="radio" name="visit" id="visit">
+                <label for="yes">Maybe</label>
+                <br><br>
+                <label for="comment">Comments:</label>
+                <br>
+                <textarea name="comment" id="comment" cols="40" rows="5"></textarea>
+
+                <br>
+                <input type="checkbox" name="emailupdates" id="emailupdates">
+                <label for="emailupdates">Sign me up for email updates</label>
+                <br>
+                <button type="submit">Submit review</button>
+            
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
