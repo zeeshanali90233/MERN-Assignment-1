@@ -1,0 +1,171 @@
+/* Setting everthing property to default */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height:100vh ;
+    background-color: beige;
+}
+
+section{
+    margin-bottom: 2rem;
+}
+
+/* part-1  */
+/* main container */
+section.part-1 .container{
+    padding: 13px;
+    width: 940px;
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 12px;
+    grid-template-rows: repeat(4,1fr);
+}
+
+section.part-1 .item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 150px;
+    background-color: rgb(180, 21, 74);
+}
+
+section.part-1  .container .row-1{
+    display: grid;
+    grid-template-columns: 1fr;   
+}
+section.part-1  .container .row-2{
+    display: grid;
+    grid-template-columns: repeat(2,460px);
+    column-gap: 12px;   
+}
+section.part-1 .container .row-3{
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: repeat(3,300px);
+    column-gap: 12px;   
+}
+section.part-1  .container .row-4{
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: repeat(4,220px);
+    column-gap: 12px;   
+}
+section.part-1  .container .row-5{
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: repeat(6,140px);
+    column-gap: 12px;   
+}
+
+
+/* part-2 */
+/* main container */
+section.part-2 .container{
+    padding: 13px;
+    width: 940px;
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 12px;
+}
+
+section.part-2  .item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 150px;
+    background-color: rgb(180, 21, 74);
+}
+
+section.part-2  .container .row-1{
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 300px 620px;   
+}
+section.part-2  .container .row-2{
+    display: grid;
+    grid-template-columns: 220px 700px;
+    column-gap: 12px;   
+}
+section.part-2 .container .row-3{
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 460px 220px 220px;
+    column-gap: 12px;   
+}
+section.part-2  .container .row-4{
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns:300px 300px 140px 140px;
+    column-gap: 12px;   
+}
+section.part-2  .container .row-5{
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: repeat(2,220px ) repeat(3,140px);
+    column-gap: 12px;   
+}
+
+
+/* part-3 */
+/* main container */
+section.part-3 .container{
+    padding: 13px;
+    width: 940px;
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 12px;
+}
+
+section.part-3  .item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 150px;
+    background-color: rgb(180, 21, 74);
+}
+
+section.part-3  .container .row-1{
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 1fr;   
+}
+section.part-3  .container .row-2{
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 1fr;     
+}
+section.part-3 .container .row-3{
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 1fr;   
+}
+section.part-3  .container .row-4{
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns:300px 300px 300px;
+    column-gap: 12px;   
+}
+
+
+section.part-3 .container .row-5 .item7,section.part-3 .container .row-2 .item2
+{
+    height: 50px;
+}
+
+section.part-3  .container .row-5{
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 1fr;    
+}
